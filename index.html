@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre nosotros</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: "Roboto", sans-serif;
+        }
+
+        .about-us {
+            padding: 80px 0px;
+        }
+
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            border: 1px solid black;
+            box-shadow: 1px 1px 9px 2px black;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 15px;
+        }
+
+        .flex {
+            flex: 0 0 50%;
+            max-width: 50%;
+            padding: 0 20px;
+        }
+
+        .about-us h2 {
+            font-size: 45px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .about-us h3 {
+            font-size: 22px;
+            color: #888;
+            margin-bottom: 8px;
+        }
+
+        .about-us p {
+            font-size: 18px;
+            line-height: 1.5;
+            color: #333;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        .about-us img {
+            display: block;
+            width: 440px;
+            border-radius: 7px;
+            height: auto;
+            margin: 0 auto;
+        }
+
+        .social-links {
+            margin-bottom: 20px;            
+        }
+
+        .social-links a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            border-radius: 50%;
+            margin-right: 10px;
+            color: #fff;
+            background-color: #333;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            transition: all 0.4s ease;
+        }
+
+        .social-links a:hover {
+            transform: translateY(-3px);
+        }
+
+        .btn {
+            text-decoration: none;
+            color: #fff;
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 18px;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-radius: 5px;
+            background-color: #333;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            transition: all 0.4s ease;            
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+        } 
+
+        /* responsive */
+
+        @media screen and(max-width: 768px) {
+
+            .row {
+                flex-direction: column;
+            }
+
+            .flex {
+                max-width: 100%;
+            }
+
+            .about-us h2 {
+                font-size: 31px;
+            }
+
+            .about-us p {
+                font-size: 16px;
+            }
+
+            .social-links a {
+                width: 30px;
+                height: 30px;
+                line-height: 30px;
+                font-size: 14px;
+                margin-right: 5px;
+            }
+
+            .btn {
+                font-size: 16px;
+                padding: 8px 16px;
+                margin-bottom: 30px;
+            }
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="about-us">
+        <div class="container">
+            <div class="row">
+                <div class="flex">
+                    <h2>Sobre Nosotros</h2>
+                    <h3>Virtus tu tienda amigable</h3>
+                    <p>
+                        ¡Bienvenidos a Virtus Technology! <br> <br>
+
+                        En Virtus Technology, nos enorgullece ser tu destino confiable para todas tus necesidades tecnológicas. Desde computadoras de escritorio potentes hasta laptops ultraportátiles y PC Gamer de alto rendimiento, estamos aquí para proporcionarte la mejor selección de productos y servicios que te ayudarán a alcanzar tus objetivos digitales. <br>
+
+                        Nuestra historia comenzó en 2015, cuando un grupo de apasionados por la tecnología decidió unir fuerzas para crear una tienda que ofreciera soluciones tecnológicas innovadoras y de calidad. Desde entonces, hemos estado comprometidos con nuestra misión de brindar a nuestros clientes una experiencia de compra excepcional y productos de la más alta calidad. 
+
+                    </p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/profile.php?id=61559255396588&mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/Virtus395?t=KI8uHUHFW0RxSzhq2AlxuA&s=09" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/virtu_stechnology?igsh=MTF0Ymhram45NmczYQ==" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <a class="btn" href="">Inicio</a>
+                </div>
+                <div class="flex">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTVAjUPeASKTDTrXgIldFTxwXgmqwt-ff99mHc2jyAnw&s" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
